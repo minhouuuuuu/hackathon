@@ -3,6 +3,7 @@ import TextClip from "@/components/TextClip";
 import TicketSales from "@/components/TicketSales"
 import Link from "next/link";
 import { ShimmerButton } from '@/components/ui/shimmer-button';
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -51,6 +52,8 @@ export default function Home() {
           <TicketSales />
         </section>
       </main>
+
+      <Footer/>
 
     </div>
   );
