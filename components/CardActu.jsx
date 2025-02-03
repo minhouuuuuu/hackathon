@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function CardActu({actu}) {
   return (
-    <Link key={actu.id} href={`/actualites/` + actu.link} className="bg-white hover:bg-amber-100 rounded-lg shadow-md h-fit transition">
+    <Link key={actu.id} href={`/actualites/` + actu.link} className="bg-white hover:bg-amber-100 rounded-lg shadow-md h-fit overflow-hidden transition">
       <img className="bg-gray-400 w-full h-40" src={actu.img} alt="photo illustrant l'article" />
 
       <div className="justify-between p-6">
