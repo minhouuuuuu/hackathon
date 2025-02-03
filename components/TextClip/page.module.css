@@ -1,0 +1,9 @@
+.stickyMask {
+  mask-image: url('/assets/logo.svg');
+  mask-position: 60% center;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url('/assets/logo.svg');
+  -webkit-mask-position: 60% center;
+  -webkit-mask-repeat: no-repeat;
+  mask-size: 100%;
+}
