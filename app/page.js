@@ -3,6 +3,7 @@ import TextClip from "@/components/TextClip";
 import TicketSales from "@/components/TicketSales"
 import Link from "next/link";
 import { ShimmerButton } from '@/components/ui/shimmer-button';
+import { ShoppingCart, User } from "lucide-react";
 
 export default function Home() {
   return (
@@ -40,7 +41,17 @@ export default function Home() {
               </li>
             </ul>
           </div>
-          <a className="bg-black text-xl text-white px-8 py-3 rounded-full hover:opacity-70 transition-opacity" href="#">Se connecter</a>
+          <div className="flex items-center gap-4">
+            <button className="hover:opacity-70 transition-opacity">
+              <ShoppingCart size={24} className="text-black" />
+            </button>
+            <button className="hover:opacity-70 transition-opacity">
+              <User size={24} className="text-black" />
+            </button>
+            <a className="bg-black text-xl text-white px-8 py-3 rounded-full hover:opacity-70 transition-opacity" href="#">
+              Contact
+            </a>
+          </div>
         </div>
       </header>
       <main className="">
