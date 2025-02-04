@@ -7,7 +7,7 @@ export default function Footer() {
 
   return (
     <footer
-      className="bg-black p-5 md:p-20">
+      className="bg-black p-5 md:p-20 border-t">
       
       <div className="w-full flex flex-col items-center justify-center">
         <img className="w-40" src="/etoileNoireLogo.png" alt="Logo de l'Étoile Noire" />
