@@ -4,6 +4,7 @@ import TicketSales from "@/components/TicketSales"
 import Link from "next/link";
 import { ShimmerButton } from '@/components/ui/shimmer-button';
 import { ShoppingCart, User } from "lucide-react";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -62,6 +63,8 @@ export default function Home() {
           <TicketSales />
         </section>
       </main>
+
+      <Footer />
 
     </div>
   );
