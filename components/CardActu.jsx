@@ -7,7 +7,7 @@ export default function CardActu({actu}) {
 
       <div className="justify-between p-6">
         <h3 className="text-black text-xl font-semibold mb-2">{actu.title}</h3>
-        <p>{actu.resume}</p>
+        <p className="font-sans">{actu.resume}</p>
 
         <button className="mt-2 bg-amber-500 hover:bg-amber-600 text-white py-2 px-4 rounded-sm transition">
           Lire l'article
