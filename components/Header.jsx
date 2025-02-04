@@ -48,9 +48,9 @@ export default function Header() {
           <button className="hover:opacity-70 transition-opacity">
             <User size={24} className="text-black" />
           </button>
-          <a className="bg-black text-xl text-white px-8 py-3 rounded-full hover:opacity-70 transition-opacity" href="#">
+          <Link href="/contact" className="bg-black text-xl text-white px-8 py-3 rounded-full hover:opacity-70 transition-opacity">
             Contact
-          </a>
+          </Link>
         </div>
       </div>
     </header>
